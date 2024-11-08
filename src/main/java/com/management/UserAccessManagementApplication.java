@@ -1,0 +1,15 @@
+package com.management;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+
+@SpringBootApplication
+@ServletComponentScan
+public class UserAccessManagementApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UserAccessManagementApplication.class, args);
+	}
+
+}
